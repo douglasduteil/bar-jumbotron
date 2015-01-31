@@ -1,0 +1,30 @@
+{
+  "name": "bar-jumbotron",
+  "version": "1.0.0",
+  "description": "Jumbotron are styled web site header.",
+  "main": "src/jumbotron.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglasduteil/bar-jumbotron.git"
+  },
+  "author": {
+    "name": "Foo Bar",
+    "email": "foo@bar.com",
+    "url": "https://github.com/foo"
+  },
+  "homepage": "https://github.com/douglasduteil/bar-jumbotron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/douglasduteil/bar-jumbotron/issues"
+  },
+  "devDependencies": {
+    "assembly-line": "douglasduteil/assembly-line",
+    "gulp": "^3.8.10",
+    "ng-component-machinery": "douglasduteil/ng-component-machinery",
+    "run-sequence": "^1.0.2"
+  },
+  "assembly-line": {}
+}
