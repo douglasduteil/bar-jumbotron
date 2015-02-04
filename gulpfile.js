@@ -23,7 +23,14 @@ line.run();
 
 ////
 
-gulp.task('default', ['lint', 'karma']);
+gulp.task('default', ['build']);
+
+
+gulp.task('build', function (cb) {
+  runSequence([
+    'ng-component-machinery:build'
+  ], cb);
+});
 
 gulp.task('lint', function (cb) {
   runSequence([
